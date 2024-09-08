@@ -3,8 +3,8 @@ transformers
 torch
 numpy
 pypdf2
-faiss-gpu
 langchain
 langchain_community
 langchain_huggingface
 streamlit==1.24.0
+faiss-gpu
