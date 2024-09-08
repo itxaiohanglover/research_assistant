@@ -1,7 +1,7 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_text_splitters import RecursiveCharacterTextSplitter  # 导入文本分割器
 from langchain.chains.question_answering import load_qa_chain  # 导入load_qa_chain，用于加载问答链
-
+from langchain_community.vectorstores import FAISS
 # 定义聊天机器人模板
 chatbot_template = '''
 假设你是一个AI科研助手，请基于背景，简要回答问题。

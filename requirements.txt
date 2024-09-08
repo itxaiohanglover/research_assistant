@@ -2,7 +2,7 @@ modelscope
 transformers
 torch
 numpy
-pypdf2
+pypdf
 langchain
 langchain_community
 langchain_huggingface
